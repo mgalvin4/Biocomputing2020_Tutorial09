@@ -27,10 +27,10 @@ print(iris[iris$Sepal.Width > 3.5, ])
 write.table(iris[iris$Species == "setosa", ], file = 'setosa.csv', sep = ",")
 
 # mean, min, max of virginica Petal.Length
-virgin <- iris[iris$Species == "virginica", ]
-mean(virgin[, "Petal.Length"])
-max(virgin[, "Petal.Length"])
-min(virgin[, "Petal.Length"])
+virginica <- iris[iris$Species == "virginica", ]
+mean(virginica[, "Petal.Length"])
+max(virginica[, "Petal.Length"])
+min(virginica[, "Petal.Length"])
 
 
       
